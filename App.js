@@ -21,11 +21,16 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    borderWidth: 2,
+    margin: '5%',
   },
 
   title: {
-    // fontSize: 'xx-large',
+    fontSize: 32,
     fontWeight: '700',
-    textAlign: 'center'
+    textAlign: 'center',
+    marginTop: '12%',
+    borderBottomWidth: 3,
+    paddingBottom: 10,
   }
 });
