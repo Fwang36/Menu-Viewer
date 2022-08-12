@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import MenuItem from './components/MenuItem';
 export default function App() {
   return (
     <View>
@@ -8,7 +8,7 @@ export default function App() {
         Wei Xiang Yuan Menu
       </Text>
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <MenuItem value={"testing"}/>
         <StatusBar style="auto" />
       </View>
     </View>
@@ -17,7 +17,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
